@@ -1,0 +1,4 @@
+[submodule "public/kos-it.github.io"]
+	path = public/kos-it.github.io
+	url = https://github.com/kos-it/kos-it.github.io.git
+	branch = master

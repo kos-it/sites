@@ -1,0 +1,17 @@
+baseurl = "https://kos-it.github.io"
+title = "KOS-IT — Making and Developing"
+languageCode = "id-id"
+
+theme = "programmer"
+themesdir = "themes"
+
+paginate = 4
+
+disqusShortname = "kos-it"
+googleAnalytics = "UA-XXXXXXXX-X"
+
+[author]
+    name = "Karcaqs"
+    homepage = "https://web.facebook.com/taqwa.prakoso"
+    bio = "Sejenis Terong"
+    image = "/img/karcaqs.svg"
