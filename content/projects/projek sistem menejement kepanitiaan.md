@@ -1,5 +1,6 @@
 ---
 title: "Projek 1 | Sistem Menegement Kepanitiaan dengan Codeigniter"
+author: [author]
 date: 2018-10-19T22:35:00+09:00
 categories: ["Website"]
 tags: ["Projects", "Website", "PHP", "Codeigniter"]

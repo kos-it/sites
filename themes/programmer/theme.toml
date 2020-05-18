@@ -2,7 +2,7 @@
 
 name = "KOS-IT"
 license = "MIT"
-licenselink = "https://github.com/lubang/hugo-hello-programmer-theme/blob/master/LICENSE.md"
+licenselink = "https://github.com/kos-it/sites/LICENSE.md"
 description = "Making and Developing"
 homepage = "https://kos-it.github.com/"
 tags = ["blog", "3D modeling", "desain grafis", "game making", "programmer", "website"]
@@ -10,5 +10,7 @@ features = ["blog", "simple", "programmer"]
 min_version = 0.15
 
 [author]
-  name = "Karcaqs"
-  homepage = "https://kos-it.github.com/about/"
+    name = "Karcaqs"
+    homepage = "https://web.facebook.com/taqwa.prakoso"
+    bio = "Sejenis Terong"
+    image = "/img/karcaqs.svg"

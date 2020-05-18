@@ -1,5 +1,6 @@
 ---
 title: "Tutorial SIMKEP dengan Codeiniter #1 : Pengenalan Codeigniter"
+author: [author]
 date: 2018-10-19T23:35:00+09:00
 categories: ["Website"]
 tags: ["Tutorial Project - 1", "Website", "PHP", "Codeigniter"]
@@ -107,17 +108,13 @@ Kita akan mendapatkan sebuah file zip <img class="emoji" draggable="true" alt="f
 
 Setelah itu agar lebih memudahkan ubah nama folder Codeigniter tersebeut menjadi nama projek kita. karna projek kita adalah Sistem Menejement Kepanitiaan maka kita singkat saja menjadi SIMKEP.
 
-![Codeigniter](/img/projek1/ekstrak-ci.gif)
-
 Kemudian pada browser kalian silahkan masukkan url: [http://localhost/SIMKEP](http://localhost/SIMKEP)
 
-![Codeigniter](/img/projek1/downloadci.png)
+![Codeigniter](/img/projek1/simkep1.jpg)
 
 Gambar diatas adalah halaman awal dari Codeigniter "_Welocome to Codeigniter_. Jika kalian melihat halaman seperti diatas maka Codeigniter telah berhasil teristall
 
 Selanjutnya, sebagai pengenalan awal. Silahkan buka teks editor kalian. Disini kami menggunakan teks editor VS Code. 
-
-![Codeigniter](/img/projek1/downloadci.png)
 
 Kemudian cobalah untuk mengubah teks `Welcome to Codeigniter!` menjadi `Sistem Menejement Kepanitiaan`.
 
@@ -125,16 +122,30 @@ Caranya :
 
 Buka file <img class="emoji" draggable="true" alt="folder" src="/icon/icons8-folder.svg"> `application/views/welcome_massage.php` lalu ubah teks pada line ke `71`.
 
-![Codeigniter](/img/projek1/downloadci.png)
+![Codeigniter](/img/projek1/simkep2.jpg)
 
 _Save_.. sekarang coba reload kembali halaman [http://localhost/SIMKEP](http://localhost/SIMKEP).
 
-![Codeigniter](/img/projek1/downloadci.png)
+![Codeigniter](/img/projek1/simkep3.jpg)
 
 Jejeng..
 
-Sekarang header pada halaman awal [Codeigniter](https://kos-it.github.io/tagas/codeigniter) telah berubah menjadi `Sistem Menejement Kepanitiaan`.
+Sekarang header pada halaman awal [Codeigniter](https://kos-it.github.io/tagas/codeigniter) telah berubah menjadi `welcome to SIMKEP`.
 
 Penjelasan:
 
-file 
+File 📄 `welcome_message.php` yang berada di dalam direktori <img class="emoji" draggable="true" alt="folder" src="/icon/icons8-folder.svg"> `views` merupakan file yang bertanggung jawab untuk menampilkan sesuatu. Di sini kita bisa menuliskan kode untuk template dan CSS.
+
+File 📄 `welcome_message.php` di-load oleh sebuah controller `application/controllers/welcome.php` dengan kode:
+
+![Codeigniter](/img/projek1/simkep4.jpg)
+
+Controller welcome adalah controller default yang digunakan. Hal ini bisa kita lihat pada konfigurasi routers di <img class="emoji" draggable="true" alt="folder" src="/icon/icons8-folder.svg"> `application/config/routers.php`.
+
+![Codeigniter](/img/projek1/simkep5.jpg)
+
+Bingung?
+
+Tenang…
+
+Kita akan pelajari di tutorial berikutnya.
