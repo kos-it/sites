@@ -20,12 +20,12 @@
   {{ if .Params.cover }}
   <meta property="og:image" content="{{ .Params.cover | absURL }}">
   {{ else }}
-  <meta property="og:image" content="{{ "images/logo3.svg" | absURL }}">
+  <meta property="og:image" content="{{ "images/icon.ico" | absURL }}"> <!--harus format .ico-->
   {{ end }}
   {{ range .Params.tags }}
   <meta property="og:tags" content="{{ . }}">
   {{ end }}
-  <link rel="icon" href="{{ "images/icon.svg" | relURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ "images/icon.ico" | relURL }}" type="image/x-icon"> <!--harus format .ico--> 
   <link rel="canonical" href="{{ .Permalink }}">
   {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

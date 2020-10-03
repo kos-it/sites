@@ -76,7 +76,7 @@ img {
     outline: none;
   }
   .navbar > .burger button:hover {
-    background-color: #00ccaa;
+    background-color: #f7931e;
   }
   .navbar > .menu {
     position: relative;
@@ -171,7 +171,7 @@ img {
 }
 .post .post-meta h1 {
   color: #f7931e;
-  margin: -4px 0px 40px 0px;
+  margin: -4px 0px 40px 53px;
   line-height: 1.2em;
 }
 .post .post-meta time {
@@ -215,7 +215,10 @@ img {
   }
 }
 
-.post .post-content h1,
+.post .post-content h1{
+  margin-top: 2.2em;
+  font-size: 1.8em;
+}
 .post .post-content h2,
 .post .post-content h3,
 .post .post-content h4,
@@ -233,9 +236,34 @@ img {
 .post .post-content img {
   max-width: 100%;
 }
+.post .post-content .figure{
+  margin-bottom: 1rem !important;
+  border-radius: 0 !important;
+  display: inline-block;
+  padding: .25rem;
+  background-color: #efefef;
+  border: 1px solid #f7931e;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
+}
+.post .post-content .figure img {
+  max-width: 100% !important;
+  height: auto;
+}
+.post .post-content .figure p {
+  font-size: 90%;
+  color: #6c757d;
+  text-align: center !important;
+  margin-bottom: .5rem !important;
+}
 .post .post-content blockquote {
-  border-left: #717171 solid 4px;
+  border-left: #f7931e solid 4px;
   padding-left: 10px;
+  padding: 1em;
+  color: #505050;
+  background-color: #fffacd;
+  font-family: Lato,pt sans,Roboto,sans-serif;
 }
 .post .post-content dt {
   font-weight: bold;
@@ -245,7 +273,7 @@ img {
   border-bottom: #f7931e solid 2px;
 }
 .post .post-content code {
-  /* background-color: #f1f1f1; */
+  background-color: #f1f1f1;
   padding: 1px 3px;
   border-radius: 2px;
   font-size: 1.3em;
@@ -392,7 +420,7 @@ img {
   text-decoration: none;
 }
 .go-top-button:hover {
-  background-color: #00ccaa;
+  background-color: #f7931e;
 }
 .go-top-button i {
   margin-top: -0.1em;
@@ -525,7 +553,7 @@ img {
 
 /* emoji */
 .emoji{
-  height: 12px;
+  height: 14px;
   /* display: inline-block !important;
   border: none !important;
   box-shadow: none !important;
@@ -534,4 +562,8 @@ img {
   margin: 0 .07em .1em !important;
   background: 0 0 !important;
   padding: 0 !important; */
+}
+
+pre {
+  font-size: 1.3em;
 }

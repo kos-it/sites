@@ -1,15 +1,14 @@
 ---
 title: "Tutorial SIMKEP dengan Codeiniter #1 : Pengenalan Codeigniter"
-author: [author]
 date: 2018-10-19T23:35:00+09:00
 categories: ["Website"]
 tags: ["Tutorial Project - 1", "Website", "PHP", "Codeigniter"]
-cover: "/img/img.svg"
+cover: "https://drive.google.com//uc?export=view&id=1zKgyxiCm9R2RlIFO8O1cbknZGUN8NrRC"
 ---
 
 Selamat datang di **KOS-IT** - Making and Developing..
 
-Tutorial ini berisi sedikit pegenalan tentang salah satu frameowrk [PHP](https://kos-it.github.io/tags/php/) yakni [Codeigniter](https://kos-it.github.io/tags/codeigniter/), yang kita gunakan pada projek 1 kita yaitu [Sistem Manejement Kepanitaan](https://kos-it.github.io/projects/projek-sistem-menejement-kepanitiaan/). tutorial ini lebih ditujakan untuk yang bagi yang belum mengenal apa itu faramework [Codeigniter](https://kos-it.github.io/tags/codeigniter/), bagi kalian yang telah mengenal atau mungkin sudah tidak asing dengan [Codeigniter](https://kos-it.github.io/tags/codeigniter/) dapat langsung melangkahi tutrial ini ke [Tutorial #2](https://kos-it.guthub.io/tutorial-projek-1-bagian-2)
+Tutorial ini berisi sedikit pegenalan tentang salah satu frameowrk [PHP](https://kos-it.github.io/tags/php/) yakni [Codeigniter](https://kos-it.github.io/tags/codeigniter/), yang kita gunakan pada projek 1 kita yaitu [Sistem Management Kepanitaan](https://kos-it.github.io/projects/projek-sistem-menejement-kepanitiaan/). tutorial ini lebih ditujakan untuk yang bagi yang belum mengenal apa itu faramework [Codeigniter](https://kos-it.github.io/tags/codeigniter/), bagi kalian yang telah mengenal atau mungkin sudah tidak asing dengan [Codeigniter](https://kos-it.github.io/tags/codeigniter/) dapat langsung melangkahi tutrial ini ke [Tutorial #2](https://kos-it.guthub.io/tutorial-projek-1-bagian-2)
 
 PHP memeliki banyak framework, yang paling populer yakni Laravel dan tentu saja Codeigniter yang kita gunakan pada projek 1 kami..
 
@@ -104,8 +103,6 @@ Silahkan kunjungi [Website Codeigniter](https://www.codeigniter.com/download) un
 
 Kita akan mendapatkan sebuah file zip <img class="emoji" draggable="true" alt="folder" src="/icon/icons8-folder.svg"> `Codeigniter-3.x.x.zip`, ekstrak file tersebut ke dalam `C:\xampp\htdocs` (XAMPP) atau `/var/www/html` (Linux)
 
-![Codeigniter](/img/projek1/ekstrak-ci.gif)
-
 Setelah itu agar lebih memudahkan ubah nama folder Codeigniter tersebeut menjadi nama projek kita. karna projek kita adalah Sistem Menejement Kepanitiaan maka kita singkat saja menjadi SIMKEP.
 
 Kemudian pada browser kalian silahkan masukkan url: [http://localhost/SIMKEP](http://localhost/SIMKEP)
@@ -134,9 +131,9 @@ Sekarang header pada halaman awal [Codeigniter](https://kos-it.github.io/tagas/c
 
 Penjelasan:
 
-File 📄 `welcome_message.php` yang berada di dalam direktori <img class="emoji" draggable="true" alt="folder" src="/icon/icons8-folder.svg"> `views` merupakan file yang bertanggung jawab untuk menampilkan sesuatu. Di sini kita bisa menuliskan kode untuk template dan CSS.
+File <img class="emoji" draggable="true" alt="folder" src="/icon/file-icon.svg"> `welcome_message.php` yang berada di dalam direktori <img class="emoji" draggable="true" alt="folder" src="/icon/icons8-folder.svg"> `views` merupakan file yang bertanggung jawab untuk menampilkan sesuatu. Di sini kita bisa menuliskan kode untuk template dan CSS.
 
-File 📄 `welcome_message.php` di-load oleh sebuah controller `application/controllers/welcome.php` dengan kode:
+File <img class="emoji" draggable="true" alt="folder" src="/icon/file-icon.svg"> `welcome_message.php` di-load oleh sebuah controller <img class="emoji" draggable="true" alt="folder" src="/icon/icons8-folder.svg"> `application/controllers/welcome.php` dengan kode:
 
 ![Codeigniter](/img/projek1/simkep4.jpg)
 
@@ -148,4 +145,19 @@ Bingung?
 
 Tenang…
 
-Kita akan pelajari di tutorial berikutnya.
+Kita akan pelajari di [tutorial berikutnya.](https://kos-it.github.io/post/tutorial-projek-1-bagian-2/)
+
+# Selanjutnya :
+
+ * [Tutorial SIMKEP dengan Codeiniter #2: (Controller) MVC dan Routing, Konsep dasar CI yang Harus Dipahami](https://kos-it.github.io/post/tutorial-projek-1-bagian-2/)
+ * [Tutorial SIMKEP dengan Codeiniter #3: (View) Cara Menggunakan Bootstrap pada Codeiniger](https://kos-it.github.io/post/tutorial-projek-1-bagian-3/)
+ * [Tutorial SIMKEP dengan Codeiniter #4: (View) Membuat Template Admin](https://kos-it.github.io/post/tutorial-projek-1-bagian-4/)
+ * [Tutorial SIMKEP dengan Codeiniter #5: (Model) Membuat CRUD yang Baik](https://kos-it.github.io/post/tutorial-projek-1-bagian-5/)
+ * [Tutorial SIMKEP dengan Codeiniter #6: Membuat Fitur Login](https://kos-it.github.io/post/tutorial-projek-1-bagian-6/)
+ * [Tutorial SIMKEP dengan Codeiniter #7: Membuat Fitur Upload Gambar](https://kos-it.github.io/post/tutorial-projek-1-bagian-7/)
+ * Tutorial SIMKEP dengan Codeiniter #8: Membuat Fitur Pencarian (Admin)
+ * Tutorial SIMKEP dengan Codeiniter #9: Membuat Template untuk Landing Page dan Produk
+ * Tutorial SIMKEP dengan Codeiniter #10: Membuat Pagination
+ * Tutorial SIMKEP dengan Codeiniter #11: Cara Menggunakan Databales dan Optimasi
+ * Tutorial SIMKEP dengan Codeiniter #12: Cara Membuat Laporan dengan DomPDF
+

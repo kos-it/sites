@@ -7,7 +7,7 @@ themesdir = "themes"
 
 paginate = 4
 
-disqusShortname = "kos-it"
+disqusShortname = "kos-it-github-io"
 googleAnalytics = "UA-XXXXXXXX-X"
 
 [author]
@@ -15,3 +15,28 @@ googleAnalytics = "UA-XXXXXXXX-X"
     homepage = "https://web.facebook.com/taqwa.prakoso"
     bio = "Sejenis Terong"
     image = "/img/karcaqs.svg"
+    email = "taqwaalmutawakkil97@gmail.com"
+
+
+#[markup]
+#    [markup.highlight]
+#        codeFences = true
+#        guessSyntax = false
+#        hl_Lines = ""
+#        lineNoStart = 1
+#        lineNos = false
+#        lineNumbersInTable = true
+#        noClasses = true
+#        style = "monokai"
+#        tabWidth = 4
+#    [markup.tableOfContents]
+#        endLevel = 3
+#        ordered = false
+#        startLevel = 2
+
+#pygmentscodefences = true
+#pygmentscodefencesguesssyntax = true
+#pygmentsoptions = ""
+pygmentsstyle = "monokai"
+pygmentsuseclasses = true
+#pygmentsuseclassic = false

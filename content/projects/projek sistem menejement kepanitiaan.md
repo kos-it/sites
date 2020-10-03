@@ -1,10 +1,9 @@
 ---
-title: "Projek 1 | Sistem Menegement Kepanitiaan dengan Codeigniter"
-author: [author]
+title: "Projek 1 | Sistem Management Kepanitiaan dengan Codeigniter"
 date: 2018-10-19T22:35:00+09:00
 categories: ["Website"]
 tags: ["Projects", "Website", "PHP", "Codeigniter"]
-cover: "/img/img.svg"
+cover: "https://drive.google.com/uc?export=view&id=1yRch7WE9q1DpbLYfOgY7QGher2JOF_Ty"
 ---
 
 Selamat datang di **KOS-IT** - Making and Developing..
@@ -36,3 +35,20 @@ Berikut adalah tampilan detail dari kegiatan yang dibuat. berisi penaggung jawab
 Bagi kalian yang ingin mengetahui cara kami membuat sistem menejement kepanitiaan ini dapat mengikuti tutorial kami di [sini](https://kos-it.github.io/projects/projek-sistem-menejement-kepanitiaan/)  
 
 Bagi kalian yang menginginkan source-code dapat mendownload-nya di [sini](https://github.com/taqwa26/SIMKEP-Sistem-Menejement-Kepanitiaan)
+
+# Tutorial
+
+Bagi kalian yang ingin mengetahui cara kami membuat sistem ini dapat melihat tutorial kami dibawah ini :
+
+ * [Tutorial SIMKEP dengan Codeiniter #1 : Pengenalan Codeigniter](https://kos-it.github.io/post/tutorial-projek-1-bagian-1/)
+ * [Tutorial SIMKEP dengan Codeiniter #2: (Controller) MVC dan Routing, Konsep dasar CI yang Harus Dipahami](https://kos-it.github.io/post/tutorial-projek-1-bagian-2/)
+ * [Tutorial SIMKEP dengan Codeiniter #3: (View) Cara Menggunakan Bootstrap pada Codeiniger](https://kos-it.github.io/post/tutorial-projek-1-bagian-3/)
+ * [Tutorial SIMKEP dengan Codeiniter #4: (View) Membuat Template Admin](https://kos-it.github.io/post/tutorial-projek-1-bagian-4/)
+ * [Tutorial SIMKEP dengan Codeiniter #5: (Model) Membuat CRUD yang Baik](https://kos-it.github.io/post/tutorial-projek-1-bagian-5/) 
+ * [Tutorial SIMKEP dengan Codeiniter #6: Membuat Fitur Login](https://kos-it.github.io/post/tutorial-projek-1-bagian-6/)
+ * [Tutorial SIMKEP dengan Codeiniter #7: Membuat Fitur Upload Gambar](https://kos-it.github.io/post/tutorial-projek-1-bagian-7/)
+ * Tutorial SIMKEP dengan Codeiniter #8: Membuat Fitur Pencarian (Admin)
+ * Tutorial SIMKEP dengan Codeiniter #9: Membuat Template untuk Landing Page
+ * Tutorial SIMKEP dengan Codeiniter #10: Membuat Pagination
+ * Tutorial SIMKEP dengan Codeiniter #11: Cara Menggunakan Databales dan Optimasi
+ * Tutorial SIMKEP dengan Codeiniter #12: Cara Membuat Laporan dengan DomPDF
