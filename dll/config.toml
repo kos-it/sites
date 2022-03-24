@@ -1,0 +1,27 @@
+title = "Petani Kode — Programmer Pengguna Linux"
+baseurl = "https://www.petanikode.com/"
+languageCode = "id-id"
+defaultContentLanguage = "id"
+
+copyright = "Copyright (c) 2017, Petani Kode; all rights reserved."
+MetaDataFormat = "yaml"
+
+# theme to use (located by default in /themes/THEMENAME/)
+themesDir = "themes"
+theme = "kacang"
+
+disqusShortname = "petanikode"
+
+[author]
+    name = "Ardianta Pargo"
+    homepage = "https://twitter.com/ardiantapargo"
+    bio = "Pengamat Langit"
+    image = "https://lh5.googleusercontent.com/-h2tLsyijw8Q/AAAAAAAAAAI/AAAAAAAACys/WBpjN_34z3o/s32-c/photo.jpg"
+
+[permalinks]
+    artikel = "/:slug/"
+
+[taxonomies]
+    tag = "topik"
+    category = "kategori"
+    series = "seri"
