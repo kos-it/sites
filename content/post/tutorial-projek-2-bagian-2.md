@@ -148,7 +148,7 @@ Sekarang coba buka web browser dan buka alamat: `http://localhost/sidas/public/`
 
 Jiak hasilnya kosong atau blank, maka kita harus melakukan install library yang dibutuhkan.
 
-Silahkan buka folder ci-news dengan Visual Studio Code, lalu buka terminal dan ketik perintah berikut.
+Silahkan buka folder sidas dengan Visual Studio Code, lalu buka terminal dan ketik perintah berikut.
 ```bash
 composer install -vvv
 ```
@@ -160,7 +160,7 @@ sudo chown -Rv www-data writable/
 ```
 <blockquote>Note: ini khusus di Linux</blockquote>
 
-Setelah selesai, coba buka kembali http://localhost/ci-news/public/, maka hasilnya:
+Setelah selesai, coba buka kembali http://localhost/sidas/public/, maka hasilnya:
 
 ![ci4_1](https://drive.google.com/uc?expand&id=1nikaBHEYcWhDZ-4FnT0T1s_WkJ5TsKVB)
 
@@ -210,7 +210,7 @@ Saya yakin ada beberapa diantara kamu yang akan mendapatkan masalah saat install
 ## Tidak bisa menjalankan server
 Saat menjalankan server dengan perintah php spark serve muncul pesan error seperti ini:
 ```
-PHP Warning:  require(/app/Config/../../vendor/codeigniter4/framework/system/bootstrap.php): failed to open stream: No such file or directory in /home/dian/Playground/ci-playground/ci-news/spark on line 44
+PHP Warning:  require(/app/Config/../../vendor/codeigniter4/framework/system/bootstrap.php): failed to open stream: No such file or directory in /home/dian/Playground/ci-playground/sidas/spark on line 44
 ```
 
 ✅ Solusi:
@@ -252,6 +252,6 @@ Kalau saya, lebih suka yang pakai Composer, karena lebih praktis.
 
 Berikutnya, silahkan pelajari tentang:
 
-* ➡️ Tutorial CI 4 #03: Memahami Konsep MVC di CI 4 ())
+* ➡️ [Tutorial CI 4 #03: Memahami Konsep MVC di CI 4](https://kos-it.github.io/post/tutorial-projek-2-bagian-3/)
 
 <blockquote>Untuk tutorial CI lainnya, cek di 📚 <a href=https://kos-it.github.io/tags/codeigniter4>[List Tutorial Codeigntier]</a></blockquote>
